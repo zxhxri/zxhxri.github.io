@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>m(Other)</title>
+		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
@@ -12,15 +12,8 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Entry 1</h1>
-				<p>Thinking of the Bulgarian words ‘друг’ and ‘другар’, derivatives of one another. </p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:z.dimitrov98@gmail.com">email</a></li>
-			</ul>
+    		{{ content }}
+			</div>
 		</footer>
 	</body>
 </html>
