@@ -1,4 +1,5 @@
 name: m(Other)
 markdown: kramdown
+url: https://zxhxri.github.io/blog/
 
 permalink: /blog/:year/:month/:day/:title
