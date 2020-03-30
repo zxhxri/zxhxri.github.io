@@ -13,6 +13,7 @@
 		</nav>
 		<div class="container">
     		{{ content }}
+			  <li><span>{{ post.date | date_to_string }}</span> » {{ post.title }} </a></li>
 			</div>
 		
 		  {% for post in site.posts %}
