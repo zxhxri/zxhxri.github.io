@@ -11,12 +11,13 @@
 	        	<li><a href="/about">Video Stream</a></li>
     		</ul>
 		</nav>
+		 {% for post in site.posts %}
 		<div class="container">
-    		{{ post.date | date_to_string }}</span> » {{ post.title }}
+    		 <li><span>{{ post.date | date_to_string }}</span> » {{ post.title }}</li>
 			</div>
-		
+		 {% endfor %}	
+	
 		  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » {{ post.title }} </a></li>
 		<div class="post">
   {{ post.content }}
 </div>
