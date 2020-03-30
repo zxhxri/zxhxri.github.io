@@ -1,14 +1,15 @@
 ---
 layout: feed
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 	<title>m(other)ing process</title>
 	<link href="https://zxhxri.github.io/blog/atom.xml" rel="self"/>
 	<link href="https://zxhxri.github.io/blog/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>https://zxhxri.github.io/blog/</id>
+	<atom:link href="https://zxhxri.github.io/blog/atom.xml" rel="self" type="application/rss+xml" />
+	{% for post in site.posts %}
+
 	<author>
 		<name>Z</name>
 		<email>z.dimitrov98@gmail.com</email>
@@ -24,4 +25,4 @@ layout: feed
 		</entry>
 	{% endfor %}
 
-</feed>
+</rss>
