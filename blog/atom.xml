@@ -7,7 +7,6 @@ layout: feed
 	<title>m(other)ing process</title>
 	<link href="https://zxhxri.github.io/blog/atom.xml" rel="self"/>
 	<link href="https://zxhxri.github.io/blog/>
-	<atom:link href="https://zxhxri.github.io/blog/atom.xml" rel="self" type="application/rss+xml" />
 
 	<author>
 		<name>Z</name>
